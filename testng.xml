@@ -5,7 +5,6 @@
     <classes>
       <class name="trialGroupID.facemap"/>
       <class name="trialGroupID.Bioluminc"/>
-      <class name="trialGroupID.screenshot"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
