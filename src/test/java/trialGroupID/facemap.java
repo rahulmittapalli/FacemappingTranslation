@@ -45,7 +45,7 @@ public class facemap {
         WebDriver driver = new ChromeDriver();
         driver.get("https://pst.facemapping.com");
         driver.manage().window().maximize();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         WebElement value = driver.findElement(By.cssSelector(".text-center.cf"));
         String text = value.getText();
         System.out.println("value is " + text);
