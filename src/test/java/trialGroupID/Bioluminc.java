@@ -14,7 +14,7 @@ public class Bioluminc {
 
     public void Nametest() throws InterruptedException {
         // TODO Auto-generated method stub
-        System.setProperty("webdriver.chrome.driver", "/Users/rahulmittapalli/Downloads/Selenium drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriverpath");
         WebDriver driver;
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--use-fake-ui-for-media-stream=1");
