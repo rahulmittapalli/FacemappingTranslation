@@ -41,7 +41,7 @@ public class facemap {
 
     public void Nametest() throws InterruptedException {
         // TODO Auto-generated method stub
-        System.setProperty("webdriver.chrome.driver", "chromedriverPath");
+        System.setProperty("webdriver.chrome.driver", "/Users/rahulmittapalli/Downloads/Selenium drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://pst.facemapping.com");
         driver.manage().window().maximize();
