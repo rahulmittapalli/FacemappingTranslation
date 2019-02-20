@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class bioluminc {
+public class Bioluminc {
     @Test
 
     public void Nametest() throws InterruptedException {
