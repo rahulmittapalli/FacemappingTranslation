@@ -41,7 +41,7 @@ public class facemap {
 
     public void Nametest() throws InterruptedException {
         // TODO Auto-generated method stub
-        System.setProperty("webdriver.chrome.driver", "/Users/rahulmittapalli/Downloads/Selenium_drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriverpath");
         WebDriver driver = new ChromeDriver();
         driver.get("https://pst.facemapping.com");
         driver.manage().window().maximize();
@@ -54,8 +54,8 @@ public class facemap {
             driver.close();
         } else {
             Thread.sleep(2000);
-            driver.findElement(By.id("email")).sendKeys("mittapalli.rahul@gmail.com");
-            driver.findElement(By.id("passwd")).sendKeys("12345678");
+            driver.findElement(By.id("email")).sendKeys("username");
+            driver.findElement(By.id("passwd")).sendKeys("password");
             driver.findElement(By.xpath("//input[@type='submit']")).click();
             Thread.sleep(5000);
             System.out.println(driver.getCurrentUrl());
